@@ -41,7 +41,6 @@
 
 @media (min-width: 993px){
     .tp__header.bg-white .sub-menu-wrap>a+.sub-menu {
-        top: calc(100% + 11px);
     }
     .tp__header.bg-white .sub-menu-wrap>a+.sub-menu {
         padding-right: calc((100vw - 800px) / 2) !important;
@@ -298,3 +297,4 @@ text-transform: initial!important;
         font-size: 18px;
     }
 }
+

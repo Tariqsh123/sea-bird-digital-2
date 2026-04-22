@@ -1,0 +1,135 @@
+#web-app-dev-hero-bg{
+    background: url(https://10pearls.com/wp-content/uploads/2024/07/web-app-dev-web-Hero-Image.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+@media (max-width: 767px) and (max-height: 780px) {
+    .hero-slide {
+        padding-bottom: 8vh;
+    }
+}
+.service-after-hero-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1400px;
+    padding: 60px 10px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: left;
+}
+
+/* Left */
+.left-content {
+    flex: 1;
+}
+
+.left-content h2 {
+    font-weight: 600;
+    color: #000;
+    font-size: 40px;
+}
+
+.left-content h2 span {
+    font-weight: 900;
+    font-size: 50px;
+    text-decoration: underline 5px  #21d0b3;
+}
+
+/* Right */
+.right-content {
+    flex: 1;
+}
+
+.right-content p {
+    color: gray;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+.service-featured-section {
+    background: #171616;
+    padding: 60px 20px;
+    color: #fff;
+}
+
+.service-featured-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Title */
+.service-featured-title {
+    color: #21d0b3;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+/* Logos Row */
+.service-featured-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Logos */
+.service-featured-logos img {
+    height: 40px;
+    object-fit: contain;
+    filter: brightness(100%);
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+.service-featured-logos img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Dots */
+.service-featured-logos .dot {
+    width: 6px;
+    height: 6px;
+    background: #21d0b3;
+    border-radius: 50%;
+}
+
+/* Button */
+.service-featured-btn {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.service-featured-btn a {
+    color: #21d0b3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+    .service-featured-title {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .service-featured-btn {
+        text-align: center;
+    }
+
+    .service-featured-logos img {
+        height: 30px;
+    }
+
+    .service-featured-logos .dot {
+        display: none; /* hide dots on mobile */
+    }
+}
