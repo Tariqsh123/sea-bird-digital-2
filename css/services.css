@@ -37,7 +37,7 @@
 .left-content h2 span {
     font-weight: 900;
     font-size: 50px;
-    text-decoration: underline 5px  #21d0b3;
+    text-decoration: underline 5px  #e7b71d;
 }
 
 /* Right */
@@ -65,7 +65,7 @@
 
 /* Title */
 .service-featured-title {
-    color: #21d0b3;
+    color: #e7b71d;
     font-size: 28px;
     margin-bottom: 40px;
 }
@@ -97,7 +97,7 @@
 .service-featured-logos .dot {
     width: 6px;
     height: 6px;
-    background: #21d0b3;
+    background: #e7b71d;
     border-radius: 50%;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .service-featured-btn a {
-    color: #21d0b3;
+    color: #e7b71d;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;

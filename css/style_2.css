@@ -1439,7 +1439,7 @@ content: "";
   padding: 6px 0px !important;
 }
 .Tp__footer-main {
-  background-color: #202022;
+  background-color: #000;
   color: #fff;
   padding-top: 89px;
   flex-direction: column;
@@ -6392,7 +6392,7 @@ li#menu-item-35779 a {
 }
 .insights-nav .elementor-nav-menu li a.elementor-item-active{
   font-weight: 700;
-  color: #21d0b3 !important;
+  color: #e7b71d !important;
 }
 .insights-nav .elementor-nav-menu li a:after{
   content: '';
@@ -6404,11 +6404,11 @@ li#menu-item-35779 a {
   bottom: 0;
 }
 .insights-nav .elementor-nav-menu li a.elementor-item-active:after{
-  background-color: #21d0b3;
+  background-color: #e7b71d;
   opacity: 1;
 }
 .insights-nav .elementor-nav-menu li a:hover{
-  color: #21d0b3 !important;
+  color: #e7b71d !important;
 }
 .insights-nav .elementor-nav-menu{
   width: 100%;
@@ -6442,7 +6442,7 @@ li#menu-item-35779 a {
   color: #fff !important;
   padding: 10px 20px; */
   background-color: #171616;
-  color: #21d0b3 !important;
+  color: #e7b71d !important;
   padding: 10px 20px;
   border-radius: 25px;
 }
@@ -6496,7 +6496,7 @@ li#menu-item-35779 a {
 .insights-page .tagcloud a.current-tag span:before{
   content: "";
   position: absolute;
-  background-color: #21d0b3;
+  background-color: #e7b71d;
   height: 4px;
   width: 106%;
   left: 0;
@@ -6526,7 +6526,7 @@ li#menu-item-35779 a {
     position: relative;
 }
 .sidebar-posts .elementor-post__read-more {
-    /* border-bottom: solid 2px #21d0b3; */
+    /* border-bottom: solid 2px #e7b71d; */
 }
 
 /*--- Categories Dropdown Mobile ----*/
@@ -6780,7 +6780,7 @@ li#menu-item-35779 a {
                                 }
 
                                 .casestudiesbox .swiper-pagination .swiper-pagination-bullet-active {
-                                    border: 3px solid #21d0b3 !important;
+                                    border: 3px solid #e7b71d !important;
                                     background-color: #171616 !important;
                                     transform: scale(1.35);
                                 }
@@ -6812,7 +6812,7 @@ li#menu-item-35779 a {
 
                                 .casestudiesbox .swiper-button-next:hover,
                                 .casestudiesbox .swiper-button-prev:hover {
-                                    background: #21d0b3;
+                                    background: #e7b71d;
                                 }
 
                                 .casestudiesbox .swiper-button-next svg,

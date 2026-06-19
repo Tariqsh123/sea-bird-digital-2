@@ -265,7 +265,7 @@
             justify-content: center;
         }
         section#AiPowered-Section .inner-wrap .AiPowered-button a {
-            background-color: #21d0b3;
+            background-color: #e7b71d;
             text-decoration: none;
             display: block;
             max-width: max-content;
@@ -308,7 +308,7 @@
                 font-size: 58px;
                 line-height: 1;
                 font-weight: 700;
-                color: #21d0b3;
+                color: #e7b71d;
                 margin: 1.15rem 0 1.4rem 0
             }
             .hero-tagline,
