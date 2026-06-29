@@ -11977,8 +11977,10 @@ section#AiPowered-Section .inner-wrap .row {
     position: absolute;
     left: 0;
     top: 0;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     background-size: cover;
+    background-position: center;
+    background-clip: border-box;
     z-index: inherit;
 }
 
